@@ -43,12 +43,11 @@ html,body {
 
 
 h1{
-    line-height: 0.1px; 
+    line-height: normal; 
     font-style: normal;
-    padding-top: 20px;
-    padding-bottom: 1px;
+    padding:2%;
     font-family: Algeria, serif;
-	font-size: 50;
+    font-size: 50;
 }
 h2{
     text-align: center;

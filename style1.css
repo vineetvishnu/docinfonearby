@@ -1,0 +1,165 @@
+html,body {
+    max-height: 100%;
+    margin:0; padding: 0;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.5;
+	
+  }
+/***Navigation***/
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+	
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #201A17;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    border:solid;
+    border-top-width: 0;
+    border-right-width: 0.1;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-right-color: white;
+    color: floralwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover:not(.active){
+    background-color: #3E3936;
+}
+.active{
+    background-color: #BFA69B;
+}
+
+
+h1{
+    line-height: 0.1px; 
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    font-family: Algeria, serif;
+	font-size: 50;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-size: 20;
+    font-family: cursive;
+}
+
+/**Social links**/
+
+.contact-us{
+    padding-top: 1%;
+    padding-left: 90%;
+    padding-bottom: 4%;
+}
+.linked-in{
+    padding-left:2%;
+    padding-right:2%;
+}
+
+/**Header**/
+
+
+.header{
+	color: white;
+	text-shadow: 8px 8px 8px 8px;
+    height: 100%;
+    width: 100%;
+	background-image: url(Covidearth.jpeg);
+	background-size: 100%;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: centre;
+    overflow: hidden;
+}
+
+
+#doctor{
+	margin: 4% 3.5% 4%;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 92.5%;
+	text-align: justify-all;
+	border: 3px solid black;
+}
+
+#doctor td, #doctor th{
+	border:1px solid black;
+	padding: 1%;
+}
+
+#doctor tr:nth-child(even){
+	background-color: rgb(191, 211, 216);
+	color: black;
+}
+#doctor tr:nth-child(odd){
+	background-color: rgb(255, 165, 0);
+	color: white;
+}
+#doctor tr:hover{
+	background-color: violet;
+}
+
+#doctor th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: tomato;
+	color: white;
+}
+
+
+/***Footer***/
+
+
+.footer{
+    background:#201A17;
+    color:azure;
+    width: 100%;
+    min-width: 30px;
+    height: auto;
+    padding: 40px 20px 10px 10px;
+	overflow: hidden;
+}
+
+.footer-content{
+    font-family: "Open Sans";
+    width: 60vw;
+	height: auto;
+    display: flex;
+    color: white;
+	flex-wrap: wrap;
+    text-align: center; 
+}
+.footer-section{
+    width: 60%;
+	margin-left: 59.px;
+	align-items:flex-end;
+	flex: 10;
+    padding: 2vw;
+    text-align: center;   
+}
+.footer-bottom{ 
+    left: 0;
+    bottom: 0;
+    min-width: 30vw;
+    background: grey;
+    color:darkgrey;
+    height: 8vh;
+    text-align: center;
+	overflow: hidden;
+}
